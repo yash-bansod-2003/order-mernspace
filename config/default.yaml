@@ -1,0 +1,7 @@
+server:
+    host: "localhost"
+    port: 5003
+database:
+    url: mongodb://127.0.0.1:27017/order
+auth:
+    jwksUri: http://localhost:5001/.well-known/jwks.json
